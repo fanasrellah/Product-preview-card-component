@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Mada:wght@500&family=ZCOOL+QingKe+HuangYou&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+
+
+body {
+    font-family: 'Mada', sans-serif;
+    background-color: hsl(30, 35%, 92%);
+    font-size: 14px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin : 30px auto ;
+    padding : 0 30px
+} 
+
+.grid {
+    max-width :700px;
+    display :grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.img img {
+    max-width: 100%;
+    display: inherit;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px;
+
+    
+
+}
+
+.card h1 {
+    font-family: 'Mada', sans-serif;
+    font-size: 34px;
+    line-height: 1.6em;
+}
+
+.card .text {
+    line-height: 2em;
+    color: hsl(212, 21%, 48%);
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.new-price {
+    color: hsl(158, 36%, 37%);
+    font-size: 40px;
+    padding-right: 25px;
+}
+.old-price {
+    text-decoration: line-through;
+}
+.card h6 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+}
+
+
+.cta {
+    background-color:hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 5px;
+    padding: 12px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mada', sans-serif;
+    color: azure;
+}
+
+.cta img {
+    right: 15px;
+    position: relative;
+
+
+}
+
+
+
+.cta:hover {
+    background-color:hsl(158, 36%, 25%);
+    
+}
+
